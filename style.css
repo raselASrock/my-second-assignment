@@ -1,0 +1,129 @@
+.top-container{
+    display: flex;
+    background-color: #161616;
+    background-size: cover;
+    border-radius: 20px;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 20px;
+}
+.top-container p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 60px 20px;
+}
+.top-container button{
+    border: none;
+    background-color: #DD0000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.half-width{
+    width: 50%;
+}
+main{
+    margin: 50px 0;
+}
+main .middle{
+    display: grid;
+    justify-content: space-evenly;
+}
+main .small{
+    background-color: #161616;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+#recent{
+    background-color: #DD0000;
+    color: white;
+}
+nav .time-comment{
+    text-decoration: none;
+    padding-right: 50px;
+    color: #161616;
+    font-weight: 700;
+}
+.small .match-info{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.small button{
+    background-color: white;
+    margin: 40px 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+main button{
+    background-color: lightsteelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+    color: black
+    padding: 10px 20px;
+}
+main .middle{
+    display: flex;
+}
+.match-live .inline{
+    display: grid;
+}
+main .large{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+main .phone .text{
+    text-align: center;
+    margin: 30px 0;
+    
+}
+.phone .text button{
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #DD0000;
+    color: white;
+}
+footer{
+    background-color: #161616;
+}
+.footer-text{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+}
+hr{
+    width: 700px;
+    margin-top: 50px;
+}
+footer nav{
+text-align: center;
+margin-top: 100px;
+}
+footer nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px 20px;
+}
+footer nav a .icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
