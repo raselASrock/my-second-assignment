@@ -1,0 +1,133 @@
+.top-container{
+    display: flex;
+    background-color: #161616;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px 250px;
+    padding-left: 50px;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 20px;
+}
+.top-container p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 60px 20px;
+}
+.top-container span{
+    color: green;
+}
+#big{
+    color: red;
+}
+.top-container button{
+    border: none;
+    background-color: #DD0000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.half-width{
+    width: 50%;
+}
+main .middle-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+main .middle{
+    display: flex;
+}
+main .small{
+    background-color: #161616;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+main .board{
+    background-color: #161616;
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.board #link-01{
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+main .parent-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+}
+main .card{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 10px 10px 15px gray;
+}
+.board button{
+    display: flex;
+}
+.board .list{
+    color: black;
+    border: none;
+    margin: 40px auto;
+    padding: 10px 15px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.card .team{
+    display: flex;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #161616;
+    margin-top: 100px;
+}
+.footer-text{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+}
+hr{
+    width: 700px;
+    margin-top: 50px;
+}
+footer nav{
+text-align: center;
+margin-top: 100px;
+}
+footer nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px 20px;
+}
+footer nav a .icon{
+    font-size: 50px;
+    margin-bottom: 50px;
+}

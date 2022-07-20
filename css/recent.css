@@ -3,12 +3,20 @@
     background-color: #161616;
     background-size: cover;
     border-radius: 20px;
+    margin: 10px 250px;
+    padding-left: 50px;
 }
 .top-container h1{
     color: white;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     margin: 20px 20px;
+}
+.top-container span{
+    color: green;
+}
+#big{
+    color: red;
 }
 .top-container p{
     color: white;
@@ -48,6 +56,15 @@ main .small{
 #recent{
     background-color: #DD0000;
     color: white;
+}
+main .card{
+    display: grid;
+    border: 1px solid rgb(206, 200, 200);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(121, 119, 119);
+    height: 400px;
+    width: 500px;
+    text-align: center;
 }
 nav .time-comment{
     text-decoration: none;
